@@ -1,0 +1,573 @@
+												NETWORKING ASSIGNMENT 
+
+------------------------------------------------------------------------------------------------------------------------------ 
+Question)
+Network ids for practicing subnetting.  
+Each subnet must contain N/w id, G/w id and B/c mentioned properly.
+Calculate subnet mask at the start and after subnetting network id.
+
+------------------------------------------------------------------------------------------------------------------------------ 
+
+1)192.168.0.0/24 --> 16 Subnets 
+
+Ans:
+
+CIDR = 28
+
+Subnet 1:
+Network ID: 192.168.0.0
+Gateway ID: 192.168.0.1
+Broadcast ID: 192.168.0.15
+IP Range: 192.168.0.1 to 192.168.0.14
+
+Subnet 2:
+Network ID: 192.168.0.16
+Gateway ID: 192.168.0.17
+Broadcast ID: 192.168.0.31
+IP Range: 192.168.0.17 to 192.168.0.30
+
+Subnet 3:
+Network ID: 192.168.0.32
+Gateway ID: 192.168.0.33
+Broadcast ID: 192.168.0.47
+IP Range: 192.168.0.33 to 192.168.0.46
+
+Subnet 4:
+Network ID: 192.168.0.48
+Gateway ID: 192.168.0.49
+Broadcast ID: 192.168.0.63
+IP Range: 192.168.0.49 to 192.168.0.62
+
+Subnet 5:
+Network ID: 192.168.0.64
+Gateway ID: 192.168.0.65
+Broadcast ID: 192.168.0.79
+IP Range: 192.168.0.65 to 192.168.0.78
+
+Subnet 6:
+Network ID: 192.168.0.80
+Gateway ID: 192.168.0.81
+Broadcast ID: 192.168.0.95
+IP Range: 192.168.0.81 to 192.168.0.94
+
+Subnet 7:
+Network ID: 192.168.0.96
+Gateway ID: 192.168.0.97
+Broadcast ID: 192.168.0.111
+IP Range: 192.168.0.97 to 192.168.0.110
+
+Subnet 8:
+Network ID: 192.168.0.112
+Gateway ID: 192.168.0.113
+Broadcast ID: 192.168.0.127
+IP Range: 192.168.0.113 to 192.168.0.126
+
+Subnet 9:
+Network ID: 192.168.0.128
+Gateway ID: 192.168.0.129
+Broadcast ID: 192.168.0.143
+IP Range: 192.168.0.129 to 192.168.0.142
+
+Subnet 10:
+Network ID: 192.168.0.144
+Gateway ID: 192.168.0.145
+Broadcast ID: 192.168.0.159
+IP Range: 192.168.0.145 to 192.168.0.158
+
+Subnet 11:
+Network ID: 192.168.0.160
+Gateway ID: 192.168.0.161
+Broadcast ID: 192.168.0.175
+IP Range: 192.168.0.161 to 192.168.0.174
+
+Subnet 12:
+Network ID: 192.168.0.176
+Gateway ID: 192.168.0.177
+Broadcast ID: 192.168.0.191
+IP Range: 192.168.0.177 to 192.168.0.190
+
+Subnet 13:
+Network ID: 192.168.0.192
+Gateway ID: 192.168.0.193
+Broadcast ID: 192.168.0.207
+IP Range: 192.168.0.193 to 192.168.0.206
+
+Subnet 14:
+Network ID: 192.168.0.208
+Gateway ID: 192.168.0.209
+Broadcast ID: 192.168.0.223
+IP Range: 192.168.0.209 to 192.168.0.222
+
+Subnet 15:
+Network ID: 192.168.0.224
+Gateway ID: 192.168.0.225
+Broadcast ID: 192.168.0.239
+IP Range: 192.168.0.225 to 192.168.0.238
+
+Subnet 16:
+Network ID: 192.168.0.240
+Gateway ID: 192.168.0.241
+Broadcast ID: 192.168.0.255
+IP Range: 192.168.0.241 to 192.168.0.254
+
+------------------------------------------------------------------------------------------------------------------------------ 
+ 
+2) 172.27.0.0/18 --> 8 subnets 
+
+Ans:
+
+CIDR = 21
+
+Subnet 1:
+Network ID: 172.27.0.0
+Gateway ID: 172.27.0.1
+Broadcast ID: 172.27.15.255
+IP Range: 172.27.0.1 to 172.27.15.254
+
+Subnet 2:
+Network ID: 172.27.16.0
+Gateway ID: 172.27.16.1
+Broadcast ID: 172.27.31.255
+IP Range: 172.27.16.1 to 172.27.31.254
+
+Subnet 3:
+Network ID: 172.27.32.0
+Gateway ID: 172.27.32.1
+Broadcast ID: 172.27.47.255
+IP Range: 172.27.32.1 to 172.27.47.254
+
+Subnet 4:
+Network ID: 172.27.48.0
+Gateway ID: 172.27.48.1
+Broadcast ID: 172.27.63.255
+IP Range: 172.27.48.1 to 172.27.63.254
+
+Subnet 5:
+Network ID: 172.27.64.0
+Gateway ID: 172.27.64.1
+Broadcast ID: 172.27.79.255
+IP Range: 172.27.64.1 to 172.27.79.254
+
+Subnet 6:
+Network ID: 172.27.80.0
+Gateway ID: 172.27.80.1
+Broadcast ID: 172.27.95.255
+IP Range: 172.27.80.1 to 172.27.95.254
+
+Subnet 7:
+Network ID: 172.27.96.0
+Gateway ID: 172.27.96.1
+Broadcast ID: 172.27.111.255
+IP Range: 172.27.96.1 to 172.27.111.254
+
+Subnet 8:
+Network ID: 172.27.112.0
+Gateway ID: 172.27.112.1
+Broadcast ID: 172.27.127.255
+IP Range: 172.27.112.1 to 172.27.127.254
+
+------------------------------------------------------------------------------------------------------------------------------ 
+
+3) 10.0.0.0/19 ---> 32 subnets 
+
+Ans:
+
+CIDR = 24
+
+Subnet 1:
+Network ID: 10.0.0.0
+Gateway ID: 10.0.0.1
+Broadcast ID: 10.0.0.127
+IP Range: 10.0.0.1 - 10.0.0.126
+
+Subnet 2:
+Network ID: 10.0.0.128
+Gateway ID: 10.0.0.129
+Broadcast ID: 10.0.0.255
+IP Range: 10.0.0.129 - 10.0.0.254
+
+Subnet 3:
+Network ID: 10.0.1.0
+Gateway ID: 10.0.1.1
+Broadcast ID: 10.0.1.127
+IP Range: 10.0.1.1 - 10.0.1.126
+
+Subnet 4:
+Network ID: 10.0.1.128
+Gateway ID: 10.0.1.129
+Broadcast ID: 10.0.1.255
+IP Range: 10.0.1.129 - 10.0.1.254
+
+Subnet 5:
+Network ID: 10.0.2.0
+Gateway ID: 10.0.2.1
+Broadcast ID: 10.0.2.127
+IP Range: 10.0.2.1 - 10.0.2.126
+
+Subnet 6:
+Network ID: 10.0.2.128
+Gateway ID: 10.0.2.129
+Broadcast ID: 10.0.2.255
+IP Range: 10.0.2.129 - 10.0.2.254
+
+Subnet 7:
+Network ID: 10.0.3.0
+Gateway ID: 10.0.3.1
+Broadcast ID: 10.0.3.127
+IP Range: 10.0.3.1 - 10.0.3.126
+
+Subnet 8:
+Network ID: 10.0.3.128
+Gateway ID: 10.0.3.129
+Broadcast ID: 10.0.3.255
+IP Range: 10.0.3.129 - 10.0.3.254
+
+Subnet 9:
+Network ID: 10.0.4.0
+Gateway ID: 10.0.4.1
+Broadcast ID: 10.0.4.127
+IP Range: 10.0.4.1 - 10.0.4.126
+
+Subnet 10:
+Network ID: 10.0.4.128
+Gateway ID: 10.0.4.129
+Broadcast ID: 10.0.4.255
+IP Range: 10.0.4.129 - 10.0.4.254
+
+Subnet 11:
+Network ID: 10.0.5.0
+Gateway ID: 10.0.5.1
+Broadcast ID: 10.0.5.127
+IP Range: 10.0.5.1 - 10.0.5.126
+
+Subnet 12:
+Network ID: 10.0.5.128
+Gateway ID: 10.0.5.129
+Broadcast ID: 10.0.5.255
+IP Range: 10.0.5.129 - 10.0.5.254
+
+Subnet 13:
+Network ID: 10.0.6.0
+Gateway ID: 10.0.6.1
+Broadcast ID: 10.0.6.127
+IP Range: 10.0.6.1 - 10.0.6.126
+
+Subnet 14:
+Network ID: 10.0.6.128
+Gateway ID: 10.0.6.129
+Broadcast ID: 10.0.6.255
+IP Range: 10.0.6.129 - 10.0.6.254
+
+Subnet 15:
+Network ID: 10.0.7.0
+Gateway ID: 10.0.7.1
+Broadcast ID: 10.0.7.127
+IP Range: 10.0.7.1 - 10.0.7.126
+
+Subnet 16:
+Network ID: 10.0.7.128
+Gateway ID: 10.0.7.129
+Broadcast ID: 10.0.7.255
+IP Range: 10.0.7.129 - 10.0.7.254
+
+Subnet 17:
+Network ID: 10.0.8.0
+Gateway ID: 10.0.8.1
+Broadcast ID: 10.0.8.127
+IP Range: 10.0.8.1 - 10.0.8.126
+
+Subnet 18:
+Network ID: 10.0.8.128
+Gateway ID: 10.0.8.129
+Broadcast ID: 10.0.8.255
+IP Range: 10.0.8.129 - 10.0.8.254
+
+Subnet 19:
+Network ID: 10.0.9.0
+Gateway ID: 10.0.9.1
+Broadcast ID: 10.0.9.127
+IP Range: 10.0.9.1 - 10.0.9.126
+
+Subnet 20:
+Network ID: 10.0.9.128
+Gateway ID: 10.0.9.129
+Broadcast ID: 10.0.9.255
+IP Range: 10.0.9.129 - 10.0.9.254
+
+Subnet 21:
+Network ID: 10.0.10.0
+Gateway ID: 10.0.10.1
+Broadcast ID: 10.0.10.127
+IP Range: 10.0.10.1 - 10.0.10.126
+
+Subnet 22:
+Network ID: 10.0.10.128
+Gateway ID: 10.0.10.129
+Broadcast ID: 10.0.10.255
+IP Range: 10.0.10.129 - 10.0.10.254
+
+Subnet 23:
+Network ID: 10.0.11.0
+Gateway ID: 10.0.11.1
+Broadcast ID: 10.0.11.127
+IP Range: 10.0.11.1 - 10.0.11.126
+
+Subnet 24:
+Network ID: 10.0.11.128
+Gateway ID: 10.0.11.129
+Broadcast ID: 10.0.11.255
+IP Range: 10.0.11.129 - 10.0.11.254
+
+Subnet 25:
+Network ID: 10.0.12.0
+Gateway ID: 10.0.12.1
+Broadcast ID: 10.0.12.127
+IP Range: 10.0.12.1 - 10.0.12.126
+
+Subnet 26:
+Network ID: 10.0.12.128
+Gateway ID: 10.0.12.129
+Broadcast ID: 10.0.12.255
+IP Range: 10.0.12.129 - 10.0.12.254
+
+Subnet 27:
+Network ID: 10.0.13.0
+Gateway ID: 10.0.13.1
+Broadcast ID: 10.0.13.127
+IP Range: 10.0.13.1 - 10.0.13.126
+
+Subnet 28:
+Network ID: 10.0.13.128
+Gateway ID: 10.0.13.129
+Broadcast ID: 10.0.13.255
+IP Range: 10.0.13.129 - 10.0.13.254
+
+Subnet 29:
+Network ID: 10.0.14.0
+Gateway ID: 10.0.14.1
+Broadcast ID: 10.0.14.127
+IP Range: 10.0.14.1 - 10.0.14.126
+
+Subnet 30:
+Network ID: 10.0.14.128
+Gateway ID: 10.0.14.129
+Broadcast ID: 10.0.14.255
+IP Range: 10.0.14.129 - 10.0.14.254
+
+Subnet 31:
+Network ID: 10.0.15.0
+Gateway ID: 10.0.15.1
+Broadcast ID: 10.0.15.127
+IP Range: 10.0.15.1 - 10.0.15.126
+
+Subnet 32:
+Network ID: 10.0.15.128
+Gateway ID: 10.0.15.129
+Broadcast ID: 10.0.15.255
+IP Range: 10.0.15.129 - 10.0.15.254
+
+------------------------------------------------------------------------------------------------------------------------------ 
+
+4) 172.16.0.0/23 --> 20 subnets 
+
+Ans:
+
+CIDR = 28
+
+Subnet 1: 
+Network ID: 172.16.0.0
+Gateway ID: 172.16.0.1
+Broadcast ID: 172.16.0.31
+IP Range: 172.16.0.1 - 172.16.0.30
+
+Subnet 2: 
+Network ID: 172.16.0.32
+Gateway ID: 172.16.0.33
+Broadcast ID: 172.16.0.63
+IP Range: 172.16.0.33 - 172.16.0.62
+
+Subnet 3:  
+Network ID: 172.16.0.64
+Gateway ID: 172.16.0.65
+Broadcast ID: 172.16.0.95
+IP Range: 172.16.0.65 - 172.16.0.94
+
+Subnet 4: 
+Network ID: 172.16.0.96
+Gateway ID: 172.16.0.97
+Broadcast ID: 172.16.0.127
+IP Range: 172.16.0.97 - 172.16.0.126
+
+Subnet 5:
+Network ID: 172.16.0.128
+Gateway ID: 172.16.0.129
+Broadcast ID: 172.16.0.159
+IP Range: 172.16.0.129 - 172.16.0.158
+
+Subnet 6: 
+Network ID: 172.16.0.160
+Gateway ID: 172.16.0.161
+Broadcast ID: 172.16.0.191
+IP Range: 172.16.0.161 - 172.16.0.190
+
+Subnet 7:
+Network ID: 172.16.0.192
+Gateway ID: 172.16.0.193
+Broadcast ID: 172.16.0.223
+IP Range: 172.16.0.193 - 172.16.0.222
+
+Subnet 8:
+Network ID: 172.16.0.224
+Gateway ID: 172.16.0.225
+Broadcast ID: 172.16.0.255
+IP Range: 172.16.0.225 - 172.16.0.254
+
+Subnet 9:
+Network ID: 172.16.1.0
+Gateway ID: 172.16.1.1
+Broadcast ID: 172.16.1.31
+IP Range: 172.16.1.1 - 172.16.1.30
+
+Subnet 10:
+Network ID: 172.16.1.32
+Gateway ID: 172.16.1.33
+Broadcast ID: 172.16.1.63
+IP Range: 172.16.1.33 - 172.16.1.62
+
+Subnet 11:
+Network ID: 172.16.1.64
+Gateway ID: 172.16.1.65
+Broadcast ID: 172.16.1.95
+IP Range: 172.16.1.65 - 172.16.1.94
+
+Subnet 12:
+Network ID: 172.16.1.96
+Gateway ID: 172.16.1.97
+Broadcast ID: 172.16.1.127
+IP Range: 172.16.1.97 - 172.16.1.126
+
+Subnet 13:
+Network ID: 172.16.1.128
+Gateway ID: 172.16.1.129
+Broadcast ID: 172.16.1.159
+IP Range: 172.16.1.129 - 172.16.1.158
+
+Subnet 14: 
+Network ID: 172.16.1.160
+Gateway ID: 172.16.1.161
+Broadcast ID: 172.16.1.191
+IP Range: 172.16.1.161 - 172.16.1.190
+
+Subnet 15: 
+Network ID: 172.16.1.192
+Gateway ID: 172.16.1.193
+Broadcast ID: 172.16.1.223
+IP Range: 172.16.1.193 - 172.16.1.222
+
+Subnet 16: 
+Network ID: 172.16.1.224
+Gateway ID: 172.16.1.225
+Broadcast ID: 172.16.1.255
+IP Range: 172.16.1.225 - 172.16.1.254
+
+Subnet 17:
+Network ID: 172.16.2.0
+Gateway ID: 172.16.2.1
+Broadcast ID: 172.16.2.31
+IP Range: 172.16.2.1 - 172.16.2.30
+
+Subnet 18:
+Network ID: 172.16.2.32
+Gateway ID: 172.16.2.33
+Broadcast ID: 172.16.2.63
+IP Range: 172.16.2.33 - 172.16.2.62
+
+Subnet 19: 
+Network ID: 172.16.2.64
+Gateway ID: 172.16.2.65
+Broadcast ID: 172.16.2.95
+IP Range: 172.16.2.65 - 172.16.2.94
+
+Subnet 20: 
+Network ID: 172.16.2.96
+Gateway ID: 172.16.2.97
+Broadcast ID: 172.16.2.127
+IP Range: 172.16.2.97 - 172.16.2.126
+
+------------------------------------------------------------------------------------------------------------------------------ 
+
+5) 10.0.0.0/20 --> 4 subnets 
+
+Ans:
+
+CIDR = 22
+
+Subnet 1:
+Network ID: 10.0.0.0
+Gateway ID: 10.0.0.1
+Broadcast ID: 10.0.3.255
+IP Range: 10.0.0.1 to 10.0.3.254
+
+Subnet 2:
+Network ID: 10.0.4.0
+Gateway ID: 10.0.4.1
+Broadcast ID: 10.0.7.255
+IP Range: 10.0.4.1 to 10.0.7.254
+
+Subnet 3:
+Network ID: 10.0.8.0
+Gateway ID: 10.0.8.1
+Broadcast ID: 10.0.11.255
+IP Range: 10.0.8.1 to 10.0.11.254
+
+Subnet 4:
+Network ID: 10.0.12.0
+Gateway ID: 10.0.12.1
+Broadcast ID: 10.0.15.255
+IP Range: 10.0.12.1 to 10.0.15.254
+
+------------------------------------------------------------------------------------------------------------------------------ 
+
+6) 192.168.51.0/26 --> 6 subnets 
+
+Ans:
+
+CIDR = 28
+
+Subnet 1:
+Network ID: 192.168.51.0
+Gateway ID: 192.168.51.1
+Broadcast ID: 192.168.51.15
+IP Range: 192.168.51.1 to 192.168.51.14
+
+Subnet 2:
+Network ID: 192.168.51.16
+Gateway ID: 192.168.51.17
+Broadcast ID: 192.168.51.31
+IP Range: 192.168.51.17 to 192.168.51.30
+
+Subnet 3:
+Network ID: 192.168.51.32
+Gateway ID: 192.168.51.33
+Broadcast ID: 192.168.51.47
+IP Range: 192.168.51.33 to 192.168.51.46
+
+Subnet 4:
+Network ID: 192.168.51.48
+Gateway ID: 192.168.51.49
+Broadcast ID: 192.168.51.63
+IP Range: 192.168.51.49 to 192.168.51.62
+
+Subnet 5:
+Network ID: 192.168.51.64
+Gateway ID: 192.168.51.65
+Broadcast ID: 192.168.51.79
+IP Range: 192.168.51.65 to 192.168.51.78
+
+Subnet 6:
+Network ID: 192.168.51.80
+Gateway ID: 192.168.51.81
+Broadcast ID: 192.168.51.95
+IP Range: 192.168.51.81 to 192.168.51.94
+	
+------------------------------------------------------------------------------------------------------------------------------ 
